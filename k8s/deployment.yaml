@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: wisecow
-          image: ghcr.io/krishnamoorthyrajendran/wisecow:v1
+          image: ghcr.io/krishnamoorthyrajendran/wisecow:5
           imagePullPolicy: Always
           ports:
             - name: http
