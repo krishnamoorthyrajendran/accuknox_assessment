@@ -1,5 +1,5 @@
 FROM ubuntu:24.04
-
+LABEL org.opencontainers.image.source="https://github.com/krishnamoorthyrajendran/accuknox_assessment"
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
         bash \
